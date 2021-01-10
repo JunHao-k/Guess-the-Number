@@ -1,0 +1,139 @@
+body{
+  background-image: url(pict_minimalist.png);
+  background-size: cover;
+  
+}
+
+.banner{
+  /*color: #FFD23F;*/
+  color: #FFD23F;
+  font-size: 90px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  background-color: rgba(0,0,0,0.25);
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#check{
+  padding:10px;
+  font-size:20px;
+  border: 4px aqua solid;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: #495057;
+  margin: 10px;
+  transition: 0.25s;
+  
+}
+
+#check:hover{
+  background-color: #333;
+  color: white;
+  transform: translate3d(0px, -5px, 0px);
+  cursor: pointer;
+}
+
+#restart{
+  padding:10px;
+  font-size:20px;
+  border: 4px aqua solid;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: #495057;
+  transition: 0.25s;
+  
+}
+
+#restart:hover{
+  background-color: #333;
+  color: white;
+  transform: translate3d(0px, -5px, 0px);
+  cursor: pointer;
+}
+
+
+#textbox{
+  height: 60px;
+  width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+  border: 2px black solid;
+  line-height: 30px;
+  font-size: 32px;
+}
+
+#textbox:focus{
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123 , 255 , 0.25);
+}
+
+.result{
+  display: flex;
+  position: relative;
+  background-color: pink;
+  padding: 25px;
+  margin: 10px;
+  font-size: 20px;
+  border: 3px #FCF6F5FF solid;
+  width: 600px;
+  justify-content: center;
+}
+
+.resultCorrect{
+  display: flex;
+  position: relative;
+  background-color: beige;
+  padding: 25px;
+  margin: 10px;
+  font-size: 20px;
+  border: 3px #FCF6F5FF solid;
+  width: 600px;
+  justify-content: center;
+}
+
+
+li{
+  display: flex;
+  justify-content: center;
+  list-style-image: none;
+  /*border: 4px rgba(128, 128, 128, 0.397) solid;*/
+  border: 4px rgba(188, 143, 143, 0.671) solid;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px;
+  font-size: 20px;
+  width: 300px;
+}
+
+/* 
+li {
+  display: block;
+  list-style-image: none;
+  border: 1px rgba(128, 128, 128, 0.315) solid;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.alert {
+  background-color: pink;
+  padding: 25px;
+  margin: 10px;
+}
+
+
+
+*/
