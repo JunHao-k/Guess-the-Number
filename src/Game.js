@@ -135,8 +135,6 @@ class Game extends React.Component{
                 </div>
 
                 <br/>
-
-                {/* {this.state.message ? (<div class="alert">{this.state.message}</div>) : null} */}
                 
                 {this.showMessage()}
                
