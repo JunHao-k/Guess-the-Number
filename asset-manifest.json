@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Guess-the-Number/static/css/main.54ac6b52.chunk.css",
-    "main.js": "/Guess-the-Number/static/js/main.dce6a86e.chunk.js",
-    "main.js.map": "/Guess-the-Number/static/js/main.dce6a86e.chunk.js.map",
+    "main.js": "/Guess-the-Number/static/js/main.1e3c535b.chunk.js",
+    "main.js.map": "/Guess-the-Number/static/js/main.1e3c535b.chunk.js.map",
     "runtime-main.js": "/Guess-the-Number/static/js/runtime-main.1eb3d754.js",
     "runtime-main.js.map": "/Guess-the-Number/static/js/runtime-main.1eb3d754.js.map",
     "static/js/2.a49ec10c.chunk.js": "/Guess-the-Number/static/js/2.a49ec10c.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.1eb3d754.js",
     "static/js/2.a49ec10c.chunk.js",
     "static/css/main.54ac6b52.chunk.css",
-    "static/js/main.dce6a86e.chunk.js"
+    "static/js/main.1e3c535b.chunk.js"
   ]
 }
